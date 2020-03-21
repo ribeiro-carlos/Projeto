@@ -202,7 +202,7 @@ footer {
     .container{
         
                         /*header*/
-        grid-template-rows: auto 100vh 100vh 50vh 30vh 100vh 100vh 20vh;
+        grid-template-rows: auto 102vh 68vh 25vh 8vh 45vh 119vh 13vh;
         grid-template-columns: 100%;
         grid-template-areas:"header""aside""foto-perfil""sobre-mim""titulo-skills""quadro""port1""footer";}
         .hero{grid-area: none}
@@ -238,7 +238,7 @@ footer {
             grid-template-columns: 100%;
             .hero{grid-area: footer}*/
             
-            
+            grid-template-rows: auto 74vh 37vh 87vh 19vh 67vh 165vh 30vh;
             grid-template-areas: "header"
                             "aside"
                             "foto-perfil"
