@@ -60,18 +60,17 @@ footer{
                           
 }
 .menu ul{
-    padding: 27px 90px 35px 3px;
-    margin: 0px;
+    padding: 2em;
+    margin: 0;
     list-style: none;
     float: right;
-    margin-right: 255px;
     font-size: 1.2rem;
 }
 .menu ul li { 
     display: inline;
  }
  .menu ul li a {
-    padding: 2px 10px;
+    padding-left: 1em;
     display: inline-block;
 
     /* visual do link */
@@ -81,7 +80,6 @@ footer{
 }
 .menu ul li a:hover {
     color: #6D6D6D;
-    border-bottom:3px solid #2B363E;
 }
 main{   
     display: flex;
@@ -119,30 +117,30 @@ div .foto-perfil img{
 }
 .sobre-final p, h2{
   text-align: right;
-  margin-right: 1.5em;
+  margin:auto;
+  
 }
 .sobre-final{
     margin: auto;
-    margin-left: 30px;
 }
 .quadro {
     display:flex;
     align-items: center;
 }
 .quad{
-    width: 435px;
-    height: 550px;
+    width: 26rem;
+    height: 34rem;
     background: #15c2a6;
     margin: auto;
     display: inline-block;
-    border-radius: 34px;
+    border-radius: 3em;
 }
 .quad ul{
 
-    margin: 20px 40px;
+    margin: 1em 1em;
     text-align: justify;
     color: #FFEFDC;
-    font-size: 33px;
+    font-size: 2rem;
     list-style: none;
 
 }
@@ -152,10 +150,10 @@ div .foto-perfil img{
 }
 
 .titulo-skills h3{
-  text-align: right;
-  margin:50px 200px;
-  font-size: 5em;
-  color: #2B363E;
+    align-items: center;
+    margin: auto;
+    font-size: 3em;
+    color: #2B363E;
 }
 
 .port1 {
