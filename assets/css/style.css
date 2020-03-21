@@ -238,7 +238,7 @@ footer {
             grid-template-columns: 100%;
             .hero{grid-area: footer}*/
             
-            grid-template-rows: auto 74vh 37vh 87vh 19vh 67vh 165vh 30vh;
+            grid-template-rows:  15vh 85vh 30vh 70vh 15vh 80vh 150vh 16vh;
             grid-template-areas: "header"
                             "aside"
                             "foto-perfil"
