@@ -1,0 +1,222 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #7159c1;
+    font-family: 'Poppins', sans-serif;
+    
+}
+header{
+    background:rgb(14, 170, 144);
+    grid-area: header;
+}
+main{
+    background: #15C2A6;
+    grid-area: main;
+    
+}
+aside{
+    background: #2B363E;
+    grid-area: aside;
+}
+.foto-perfil{
+    background: #FFEFDC;
+    grid-area: foto-perfil;
+}
+.sobre-mim{
+    background: #FFEFDC;
+    grid-area: sobre-mim;
+}
+
+.quadro{
+    background: #FFEFDC;
+    grid-area: quadro;
+}
+.titulo-skills{
+    background: #FFEFDC;
+    grid-area: titulo-skills;
+}
+.port1{
+    background: #2B363E;
+    grid-area: port1;
+}
+
+footer{
+    background: #15c2a6;
+    grid-area: footer;
+}
+.container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-gap: 10px ;*/ /*header main aside foto-perfil - sobre-mim quadro - titulo-skill*/ 
+    grid-template-rows: auto 100vh 100vh 100vh 100vh auto;
+    grid-template-areas:  "header header header header"
+                          "main main aside aside"
+                          "foto-perfil foto-perfil sobre-mim sobre-mim" 
+                          "quadro quadro titulo-skills titulo-skills"
+                          "port1 port1 port1 port1"
+                          "footer footer footer footer"
+                          
+}
+.menu ul{
+    padding: 27px 90px 35px 3px;
+    margin: 0px;
+    list-style: none;
+    float: right;
+    margin-right: 255px;
+    font-size: 1.2rem;
+}
+.menu ul li { 
+    display: inline;
+ }
+ .menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    color:#FFEFDC;
+    text-decoration: none;
+  
+}
+.menu ul li a:hover {
+    color: #6D6D6D;
+    border-bottom:3px solid #2B363E;
+}
+main{   
+    display: flex;
+    align-items: center;
+}
+main img{
+    max-width: 25rem;
+    margin: auto;
+}
+aside{
+    display:flex;
+    align-items: center;
+}
+aside h1{
+    font-size: 2em;
+    margin: auto;
+    color: #FFEFDC;
+}
+#perfil-foto{
+    display:flex;
+    align-items: center;
+}
+div .foto-perfil img{
+    max-width: 29rem;
+    margin: auto;
+}
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.sobre-final h2{
+    font-size: 3em;
+    color: #2B363E;
+}
+.sobre-final p, h2{
+  text-align: right;
+  margin-right: 1.5em;
+}
+.sobre-final{
+    margin: auto;
+    margin-left: 30px;
+}
+.quadro {
+    display:flex;
+    align-items: center;
+}
+.quad{
+    width: 435px;
+    height: 550px;
+    background: #15c2a6;
+    margin: auto;
+    display: inline-block;
+    border-radius: 34px;
+}
+.quad ul{
+
+    margin: 20px 40px;
+    text-align: justify;
+    color: #FFEFDC;
+    font-size: 33px;
+    list-style: none;
+
+}
+.titulo-skills{
+    display: block;
+    
+}
+
+.titulo-skills h3{
+  text-align: right;
+  margin:50px 200px;
+  font-size: 5em;
+  color: #2B363E;
+}
+
+.port1 {
+    display:flex;
+}
+
+.DDF{
+    font-size: 3em;
+    text-align: center;
+    margin:auto;
+    color: #FFEFDC;
+    display: inline-block;
+    
+}
+
+.DDF img:hover{
+        transform: scale(1.1);
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+        
+        cursor: pointer;
+}
+.DDF img{
+    max-width: 16rem;
+    display: inline;
+}
+footer {
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    
+    
+    .container{
+        
+                        /*header*/
+        grid-template-rows: auto 100vh 100vh 50vh 30vh 100vh 100vh 20vh;
+        grid-template-columns: 100%;
+        grid-template-areas:"header""aside""foto-perfil""sobre-mim""titulo-skills""quadro""port1""footer";}
+        .hero{grid-area: none}
+
+        
+        .sobre-mim h2{
+            margin: 0;
+        }
+        .sobre-mim p {
+            margin-left: 1.3em;
+            margin-right: 1.3em;
+        }
+       .quad{
+           margin: 0;
+       }
+       .hero, .hero img{
+           width: 0;
+       }
+      
+       .DDF img{
+        max-width: 22rem;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        {
+       
+    
+
+}

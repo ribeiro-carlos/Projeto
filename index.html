@@ -4,34 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Ribeiro|Portifólio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <iframe style="width: 100%; height: 85px;  border: 0;" src="header.html"></iframe>
-    </nav>
-    
-    <div>
-        <h1>Portifólioo</h1>
+    <div class="container">
+        <header class="header">
+            <nav class="menu">
+             <ul>
+                 <li><a href="index.html" target="_parent">Home</a></li>
+                 <li><a href="#sobre" target="_parent">Sobre</a> </li>
+                 <li><a href="#myskylls" target="_parent">My Skills</a> </li>
+                 <li><a href="#portifolio" target="_parent">Portifólio</a> </li>
+             </ul>        
+             </nav>
+        </header>
 
-        <h3>Titulo 1</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et rem, rerum ut totam repudiandae incidunt, ullam cupiditate eum laudantium excepturi recusandae repellat dolor, quis odit consequuntur quod commodi blanditiis explicabo!</p>
-        <img src="./img/curio-jogos.jpg" alt="imagem curio jogos x"></br>
+        <main class="hero">
+            <img src="./assets/img/cafe.png" alt="imagem xícara de café" id="cafe">
+        </main>
+        <aside>
+            <h1>Carlos Ribeiro<br>
+            Desenvolvedor Front-End Junior</h1>
+        </aside>
+
+        <!-- Bloco foto do perfil -->
+        <div id="perfil-foto" class="foto-perfil">
+            <img src="./assets/img/foto-perfil.png" alt="imagem xícara de café" id="foto">
+        </div> <!--fim div foto-perfil-->
+
+        <!-- Bloco Sobre mim com breve descrição-->
+        <div id="sobre" class="sobre-mim">
+            <div class="sobre-final">
+            <h2>Sobre mim</h2>
+            <p>Meu nome é Carlos Ribeiro, sou desenvolvedor front-end, tenho 25 anos moro em São Paulo capital, sou um apaixonado por tecnologia um fã de cultura pop, games e coisas geek. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde pariatur voluptate ea dicta eum excepturi autem illo, minus nihil. Est quis modi at ab autem tempore dolor vel quo odio. </p>
+            </div>
+        </div><!--fim div sobre mim-->
+
+        <!-- Bloco com o retangulo com habilidades -->
+        <div id="skills "class="quadro">
+            <div class="quad">
+                <ul class="skilss">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>Saas</li>
+                    <li>Bootstrap</li>
+                    <li>Angular</li>
+                    <li>React</li>
+                    <li>Git</li>
+                    <li>Metodologias Ágeis</li>
+                </ul>
+            </div>
+        </div><!--fim div quadro-->
+        <!-- Bloco com o título my skills -->
+        <div id="skills"class="titulo-skills">
+            <div id="ttt">
+                <h3>My Skills</3>
+            </div>
+        </div><!--fim div titulo-skilss-->
+
+        <!-- bloco portifólio -->
+        <div id="portifolio "class="port1">
+        <div class="DDF">
+            <h4>Portifólio</h4>
+            <img src="assets/img/curio-jogos.jpg" alt="curio"> 
+            <img src="assets/img/radar-make-b-screen.jpg" alt="make">
+            <img src="assets/img/tfg.co-estudio-de-jogos.jpg" alt="co jogos">
+
+            <div class="card1"></div>
+            <div class="card2"></div>
+        </div>
+        </div>
+        <footer> 
+            <h4>Entre em Contato!</h4>
+            <p>carlinhos.ars@gmail.com</p>
+        </footer>
     </div>
-    
-    <div>    
-        <h3>Titulo 2</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et rem, rerum ut totam repudiandae incidunt, ullam cupiditate eum laudantium excepturi recusandae repellat dolor, quis odit consequuntur quod commodi blanditiis explicabo!</p>
-        <img src="./img/radar-make-b-screen.jpg" alt="imagem radar make x"></br>
-    </div>
-
-    <div>
-        <h3>Título 3</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, unde tempora ullam aliquid illum laudantium? Nostrum, soluta dolores et eligendi ut sit debitis deleniti. Id odio cumque minima laborum nesciunt!</p>
-        <img src="./img/tfg.co-estudio-de-jogos.jpg" alt="imagem tfg estudio de jogos x"></br>
-    </div>
-
-     <footer>
-
-     </footer>
 </body>
 </html>
