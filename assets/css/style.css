@@ -209,11 +209,12 @@ footer {
 
         .sobre-mim h2{
             margin: 0;
-            margin-right: 1.3rem;
+            margin-right: 1.2rem;
         }
         .sobre-mim p {
             margin-left: 1.3em;
             margin-right: 1.3em;
+            margin-top: 0;
         }
     
        
@@ -225,11 +226,11 @@ footer {
         max-width: 22rem;
         display: flex;
         flex-direction: column;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1.2rem;
        }
        .titulo-skills h3 {
         text-align: center;
-        margin: auto;
+        margin-top: 6rem;
         font-size: 3em;
         color: #2B363E;
     }
@@ -253,7 +254,7 @@ footer {
             grid-template-columns: 100%;
             .hero{grid-area: footer}*/
             
-            grid-template-rows: 15vh 85vh 35vh 65vh 15vh 50vh 1fr auto;
+            grid-template-rows: 15vh 85vh 40vh 62vh 30vh 70vh 1fr auto;
             grid-template-areas: "header"
                             "aside"
                             "foto-perfil"
@@ -264,7 +265,9 @@ footer {
                             "footer";
         }
         
-
+        .menu ul {
+            padding: 0.5rem;
+        }
     aside h1{
         align-content: center;
         font-size: 2rem;
