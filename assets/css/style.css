@@ -236,12 +236,14 @@ footer {
     }
     .quad ul{
         list-style: none;
-        overflow: hidden;
-        font-size: medium;
+        font-size: 1.3rem;
         color: #FFEFDC;
-        max-width: 25vw;
+        max-width: 60vw;
         margin-left: 1.3rem;
-        max-height: 14em;
+        margin-right: 1.3rem;
+        max-height: 13em;
+        padding-top: 12px;
+        overflow: hidden;
     }
 
 
