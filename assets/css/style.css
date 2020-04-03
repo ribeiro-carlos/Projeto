@@ -27,7 +27,7 @@ nav{
     width: 100%;
     position: fixed;
     opacity: 0.95;
-
+    z-index: 9;
 }
 label.logo{
     color: #FFEFDC;
@@ -44,6 +44,7 @@ nav ul li{
     display:inline-block;
     line-height: 77px;
     margin: 0 5px;
+    z-index: 99999;
 }
 nav ul li a{
     color: white;
@@ -287,19 +288,6 @@ footer p{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:411px){
     .center{
         width: 90%;
@@ -307,4 +295,20 @@ footer p{
     .hero h2{
         font-size: 2.15em;
     }
+}
+
+/* Animação*/
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+[data-anime="left"]{
+    transform: translate3d(-50px, 0, 0);
+}
+[data-anime="right"]{
+    transform: translate3d(50px, 0, 0);
+}
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
 }
